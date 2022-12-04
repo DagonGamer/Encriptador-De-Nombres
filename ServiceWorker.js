@@ -10,6 +10,8 @@ self.addEventListener("install", (e) => {
                     "./",
                     "./index.html",
                     "./script.js",
+                    "./manifest.json",
+                    "./ServiceWorker.js",
                     "./style.css"
                 ])
             )
