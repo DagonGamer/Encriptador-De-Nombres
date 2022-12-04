@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    width: 100%;
+    background: white;
+    font-family: Arial;
+}
+
+div {
+    --Width: min( 80%, 25rem );
+
+    margin: calc( ( 100vh - 10rem ) / 2 ) calc( ( 100% - var(--Width) ) / 2 ) 0px calc( ( 100% - var(--Width) ) / 2 );
+}
+
+form {
+    width: 100%;
+    display: grid;
+    height: 5rem;
+    grid-template-columns: 1.5fr 3.5fr;
+    grid-template-rows: 2rem 3rem;
+}
+
+input {
+    border-radius: 0.5rem;
+    border: none;
+    height: 1.5rem;
+    width: calc( 100% - 1.5rem );
+    padding: 0.25rem 0.5rem;
+    background: #ddd;
+    outline: none;
+    text-align: center;
+    margin: 0px 0.25rem;
+}
+
+input[type="submit"] {
+    margin: 0.5rem 0.25rem;
+    width: calc( 100% - 0.5rem );
+}
+
+input.Codigo {
+    grid-column: span 2;
+}
+
+p {
+    text-align: center;
+}

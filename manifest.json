@@ -1,0 +1,14 @@
+{
+    "name": "Encriptador",
+    "short-name": "Encriptador",
+    "description": "Encripta y Desencripta nombres",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "theme_color": "aliceblue",
+    "icons": [
+        {
+          "src": "icon.png",
+          "sizes": "100x100"
+        }
+      ]
+}
