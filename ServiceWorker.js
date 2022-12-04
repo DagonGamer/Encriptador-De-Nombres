@@ -7,10 +7,10 @@ self.addEventListener("install", (e) => {
             .open(cacheName)
             .then((cache) =>
                 cache.addAll([
-                    "../",
-                    "../index.html",
-                    "../script.js",
-                    "../style.css"
+                    "./",
+                    "./index.html",
+                    "./script.js",
+                    "./style.css"
                 ])
             )
     );

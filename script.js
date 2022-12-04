@@ -105,5 +105,5 @@ let Descodificar = () => {
 }
 
 if ("serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/ServiceWorker.js");
+    navigator.serviceWorker.register("./ServiceWorker.js");
 }
